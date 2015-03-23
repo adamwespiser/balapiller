@@ -1,4 +1,4 @@
-# balapiller
+#balapiller
 A centipede like game for Parallax Propeller By Russ and Adam    
 
 
@@ -8,3 +8,4 @@ then select this repo...
 
 ### installing toolchain on linux...
 https://github.com/wendlers/install-propeller-toolchain
+sh ../install-propeller-toolchain/install-propeller-toolchain.sh
