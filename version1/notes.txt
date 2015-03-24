@@ -1,0 +1,44 @@
+Balapiller: An arcade game for embedded microprocessors. 
+Copyright (C) 2013,2014,2015  Russ Chisholm and Adam Wespiser
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+1. add 2 more keys; make them: UP = 8 = (ascii)38
+			       DOWN = 2 =   (a)32
+			       LEFT = 4 =   (a)34
+			       RIGHT = 6 =  (a)36
+(like numpad)
+
+2. Change ball directions to up, down, left, rite; key statements change direction.
+3. Change all boundaries to lose-state like pong's right boundary;
+
+
+
+4. create arrays of ball positions for trailing balls
+5. Increment ballpos index each time a key is pressed (add a trailing ball)
+6. reset ball# on lose-state. (Display #balls as score?)
+
+	==================================================================
+
+	@@@@@  @@@@@  @      @@@@@  @@@@@  @  @      @      @@@@@  @@@@@
+	@   @  @   @  @      @   @  @   @  @  @      @      @      @   @
+	@   @  @   @  @      @   @  @   @  @  @      @      @      @   @
+	@@@@@  @   @  @      @   @  @   @  @  @      @      @      @   @
+	@@     @@@@@  @      @@@@@  @@@@@  @  @      @      @@@@   @@@@@
+	@@@@@  @   @  @      @   @  @	   @  @      @      @      @ @
+	@   @  @   @  @      @   @  @	   @  @      @      @      @ @@
+	@   @  @   @  @      @   @  @	   @  @      @      @      @  @@
+	@@@@@  @   @  @@@@@  @   @  @	   @  @@@@@  @@@@@  @@@@@  @   @@  
+
+	===================================================================
